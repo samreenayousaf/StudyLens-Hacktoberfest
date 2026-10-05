@@ -115,6 +115,8 @@ python evaluation/run_evaluation.py
 
 ## 🎬 Quick Demo Workflow
 
+**Demo video:** https://youtu.be/fmw0NHtx7vI
+
 1. Start Ollama, Backend, and Frontend.
 2. Open `http://localhost:5173/` in your browser.
 3. Navigate to **Assessment** and answer:
@@ -140,3 +142,4 @@ python evaluation/run_evaluation.py
 
 This project is open-source under the [MIT License](LICENSE).
 Third-party libraries and model weights belong to their respective owners.
+
