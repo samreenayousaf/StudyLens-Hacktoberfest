@@ -1,0 +1,77 @@
+[
+  {
+    "id": "eval-01",
+    "category": "strong",
+    "question_id": 1,
+    "concept_name": "Coupling",
+    "question_text": "What is meant by high coupling in software design?",
+    "answer_text": "High coupling means modules depend strongly on each other. This is usually undesirable because changing one module can affect other modules.",
+    "expected_qualitative": {
+      "min_understanding_score": 75,
+      "max_understanding_score": 100,
+      "expected_concept": "Coupling",
+      "expect_misconception": false,
+      "expect_retest": false
+    }
+  },
+  {
+    "id": "eval-02",
+    "category": "misconception",
+    "question_id": 2,
+    "concept_name": "Coupling",
+    "question_text": "Which situation represents high coupling between two software modules, and why is it usually undesirable?",
+    "answer_text": "High coupling is good because all code is in one giant file and modules share everything.",
+    "expected_qualitative": {
+      "min_understanding_score": 0,
+      "max_understanding_score": 50,
+      "expected_concept": "Coupling",
+      "expect_misconception": true,
+      "expect_retest": true
+    }
+  },
+  {
+    "id": "eval-03",
+    "category": "acceptable",
+    "question_id": 6,
+    "concept_name": "Requirements Engineering",
+    "question_text": "What is the primary objective of requirements engineering in software development?",
+    "answer_text": "It is about capturing and documenting what the customer wants the software to do before building it.",
+    "expected_qualitative": {
+      "min_understanding_score": 50,
+      "max_understanding_score": 85,
+      "expected_concept": "Requirements Engineering",
+      "expect_misconception": false,
+      "expect_retest": false
+    }
+  },
+  {
+    "id": "eval-04",
+    "category": "off_topic",
+    "question_id": 8,
+    "concept_name": "Agile",
+    "question_text": "What are the core principles of the Agile Manifesto regarding software development?",
+    "answer_text": "Pasta is made from flour, eggs, and water boiled in salted water.",
+    "expected_qualitative": {
+      "min_understanding_score": 0,
+      "max_understanding_score": 30,
+      "expected_concept": "Agile",
+      "expect_misconception": false,
+      "expect_retest": true
+    }
+  },
+  {
+    "id": "eval-05",
+    "category": "weak",
+    "question_id": 13,
+    "concept_name": "Unit Testing",
+    "question_text": "What characterizes an effective unit test in automated test suites?",
+    "answer_text": "I don't know.",
+    "expected_qualitative": {
+      "min_understanding_score": 0,
+      "max_understanding_score": 25,
+      "expected_concept": "Unit Testing",
+      "expect_misconception": false,
+      "expect_retest": true
+    }
+  }
+]
