@@ -103,7 +103,7 @@ Run the automated test suite covering database models, seed idempotency, mastery
 ```powershell
 python -m pytest backend/tests/
 ```
-*Current test status: **29 passed, 0 failed**.*
+*Current test status: **52 passed, 0 failed**.*
 
 ### Running the Local AI Evaluation Harness
 To run the evaluation dataset against the live local backend:
